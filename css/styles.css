@@ -20,7 +20,7 @@ body {
 }
 
 .header_title:hover {
-    color: red;
+    color: darkmagenta;
 }
 
 .wrapper{
@@ -91,7 +91,7 @@ body {
   }
 
   .button_text:hover {
-      color: red;
+      color: darkmagenta;
   }
 
 
