@@ -33,7 +33,7 @@ body {
 }
 
 .header_title:hover {
-    color: red;
+    color: darkmagenta;
 }
 
 .wrapper{
@@ -132,8 +132,12 @@ body {
   }
 
   .button_text:hover {
+<<<<<<< HEAD
       color: red;
       border: 2px solid red;
+=======
+      color: darkmagenta;
+>>>>>>> 9167bf03278100890b5883b1acb255954c580c7e
   }
 
   .button_home {
