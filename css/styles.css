@@ -1,12 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body,
+html {
+  height: 100%;
 }
 
 body {
-    background-color: rgb(37, 43, 41);
+  background-color: rgb(37, 43, 41);
 }
 
 
@@ -36,15 +41,15 @@ body {
   color: darkmagenta;
 }
 
-.wrapper{
-  border:3px solid red;
+.menu {
+  border: 3px solid red;
   width: 100%;
-  height:20%;
+  height: 20%;
   margin: 0 auto;
   text-decoration: none;
 }
 
-.logo{
+.logo {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -55,24 +60,38 @@ body {
 }
 
 
-.text{
+.wrapper {
+
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+
+.text {
   color: tomato;
-  border:3px solid greenyellow;
+  border: 3px solid greenyellow;
   width: 100%;
   height: 30%;
 }
 
+.list_menu {
+  list-style: none;
+}
+
+.button {
+  text-decoration: none;
+}
 
 .button_cor>img {
   margin-top: 20px;
   margin-bottom: 20px;
   height: 80px;
   width: 80px;
-  border:2px solid red;
+  border: 2px solid red;
   transition: 1s;
-  text-decoration: none;
 }
-   
+
 .button_cor>img:hover {
   border: transparent;
 }
@@ -82,9 +101,8 @@ body {
   margin-bottom: 20px;
   height: 80px;
   width: 80px;
-  border:2px solid red;
+  border: 2px solid red;
   transition: 1s;
-  text-decoration: none;
 }
 
 .button_drone>img:hover {
@@ -96,9 +114,8 @@ body {
   margin-bottom: 20px;
   height: 80px;
   width: 80px;
-  border:2px solid red;
+  border: 2px solid red;
   transition: 1s;
-  text-decoration: none;
 }
 
 .button_radio>img:hover {
@@ -110,9 +127,8 @@ body {
   margin-bottom: 20px;
   height: 80px;
   width: 80px;
-  border:2px solid red;
+  border: 2px solid red;
   transition: 1s;
-  text-decoration: none;
 }
 
 .button_others>img:hover {
@@ -123,7 +139,7 @@ body {
   display: flex;
   justify-content: flex-start;
   justify-content: space-around;
-  border:2px solid yellow;
+  border: 2px solid yellow;
   margin-bottom: 20px;
   font-size: 25px;
   color: orange;
@@ -144,7 +160,7 @@ body {
   text-align: center;
 }
 
-.content_paragraph{
+.content_paragraph {
   font-size: 10px;
   margin-left: 10%;
   margin-right: 10%;
@@ -167,16 +183,17 @@ body {
   margin-bottom: 10%;
   width: 80%;
   min-width: 220px;
-  border:2px solid white;
+  border: 2px solid white;
 }
 
 
-.footer{
-  border:2px solid red;
+.footer {
+  border: 2px solid red;
   display: flex;
-	bottom:0;
-	width:100%;
-  height:30px;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  position: absolute;
 }
 
 .footer_text {
@@ -217,30 +234,32 @@ body {
   font-size: 18px;
   margin-bottom: 5px;
 }
-  
+
 .todo_item_container {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   margin-bottom: 2%;
 }
-  
+
 .todo_item_text {
   overflow: hidden;
 }
-  
+
 .todo_controls {
   display: inline-flex;
 }
-  
+
 .todo_item img {
   height: 25px;
   width: 25px;
   margin: 0 5px;
   cursor: pointer;
 }
-  
+
 .todo_plus {
+  display: flex;
+  align-self: center;
   height: 30px;
   width: 30px;
   margin-left: 30px;
