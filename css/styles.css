@@ -88,11 +88,8 @@ justify-content: space-around;
   list-style: none;
 }
 
-.button {
+.button>img {
   text-decoration: none;
-}
-
-.button_cor>img {
   margin-top: 20px;
   margin-bottom: 20px;
   height: 80px;
@@ -101,48 +98,11 @@ justify-content: space-around;
   transition: 1s;
 }
 
-.button_cor>img:hover {
+
+.button>img:hover {
   border: transparent;
 }
 
-.button_drone>img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 80px;
-  width: 80px;
-  border: 2px solid red;
-  transition: 1s;
-}
-
-.button_drone>img:hover {
-  border: transparent;
-}
-
-.button_radio>img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 80px;
-  width: 80px;
-  border: 2px solid red;
-  transition: 1s;
-}
-
-.button_radio>img:hover {
-  border: transparent;
-}
-
-.button_others>img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 80px;
-  width: 80px;
-  border: 2px solid red;
-  transition: 1s;
-}
-
-.button_others>img:hover {
-  border: transparent;
-}
 
 .button_text {
   display: flex;
@@ -159,6 +119,11 @@ justify-content: space-around;
 .button_text:hover {
   color: red;
   border: 2px solid red;
+}
+
+.button_status {
+  border:4px solid green !important;
+  color: red !important;
 }
 
 .button_home {
