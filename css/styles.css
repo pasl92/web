@@ -69,10 +69,10 @@ body {
 
 .rc_image {
   display: flex;
-margin-left: auto;
-margin-right: auto;
-border: 2px solid rgb(170, 170, 170);
-justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(170, 170, 170);
+  justify-content: space-around;
   height: 80%;
   width: 80%;
 }
@@ -98,11 +98,13 @@ justify-content: space-around;
   transition: 1s;
 }
 
-
 .button>img:hover {
   border: transparent;
 }
 
+.button {
+  text-decoration: none;
+}
 
 .button_text {
   display: flex;
@@ -119,11 +121,13 @@ justify-content: space-around;
 .button_text:hover {
   color: red;
   border: 2px solid red;
+  text-decoration: none;
 }
 
 .button_status {
-  border:4px solid green !important;
+  border: 4px solid green !important;
   color: red !important;
+  text-decoration: none;
 }
 
 .button_home {
